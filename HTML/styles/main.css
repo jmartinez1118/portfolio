@@ -16,8 +16,7 @@ body {
 
 h1 {
   margin: 0 0 30px;
-  font: 6.42857em / 1 'Monoton';/*'Keania One', cursive;*//*'Bungee Inline', cursive;*//*'Megrim', cursive;*//*loveloline_bold;*/
-  letter-spacing: 5px;
+  font: 6.42857em / 1 'Monoton';
   text-transform: uppercase;
   font-size: 80px;
 
@@ -26,7 +25,7 @@ h1 {
 h1 .name {
   display: block;
   margin: 0 0 25px;
-  font: 0.35714em / 1 'Bad Script', cursive;
+  font: 0.35714em / 1 'Raleway';/*'Bad Script', cursive;*/
   letter-spacing: 2px;
   text-transform: none;
   font-weight: bolder;
@@ -38,9 +37,10 @@ h1 b {
 
 h2 {
   margin: 0 0 30px;
-  font: 4.28571em / 1.2 'Keania One', cursive;/*'Bungee Inline', cursive;*//*'/*'Megrim', cursive;*/ /*loveloline_bold;*/
+  font: 4.28571em / 1.2 'Monoton';
   letter-spacing: 10px;
   text-transform: uppercase;
+  font-weight: lighter;
   
 }
 
@@ -51,7 +51,7 @@ h2 a {
 
 h3 {
   margin: 0 0 30px;
-  font: 1.78571em / 1.1 'Bad Script', cursive;/*'Roboto', sans-serif;*/
+  font: 1.78571em / 1.1 'Raleway'; /*'Bad Script'; */
   letter-spacing: 3px;
 }
 
@@ -554,6 +554,7 @@ a.alignright {
 
 .section-top-fall.section-bg-light:before {
   background: linear-gradient(to bottom left, transparent, transparent 50%, #3e4c59 50%, #3e4c59);
+  background-color: #E4EBEE;
 }
 
 .lte-ie9 .section-top-fall .before {
@@ -605,7 +606,7 @@ a.alignright {
 }
 
 .section-bottom-fall.section-bg-light:after {
-  background: linear-gradient(to bottom left, #E4EBEE, #E4EBEE 50%, transparent 50%, transparent);
+  background: linear-gradient(to bottom left, #3e4c59, #3e4c59 50%, transparent 50%, transparent);
 }
 
 .lte-ie9 .section-bottom-fall .after {
@@ -3099,6 +3100,9 @@ a img.aligncenter {
 }
 .section-bg-overlay .btn-bordered {
   border-color: floralwhite;
+}
+.p-git {
+  text-align: center;
 }
 
 
